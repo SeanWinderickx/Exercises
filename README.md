@@ -5,4 +5,4 @@ Hi! I'm Sean Winderickx, a student at BeCode learning webdesign. In this little 
 ## Chapter I: HTML
 1 Markdown to HTML
 
-[Have a peek at my index page!](https://htmlpreview.github.io/?https://github.com/SeanWinderickx/Learning-Markup/blob/master/index.html)
+[Have a peek at my index page!](https://seanwinderickx.github.io/Learning-Markup/)
