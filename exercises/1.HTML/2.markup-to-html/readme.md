@@ -3,4 +3,4 @@
 
 In this exercise I turned the design of a markup page into functioning HTML, combining HTML and CSS.
 
-http://htmlpreview.github.io/?https://github.com/SeanWinderickx/Learning-Markup/blob/master/exercises/HTML/markup-to-html/index.html
+[Check out this exercise here!](https://htmlpreview.github.io/?https://github.com/SeanWinderickx/Learning-Markup/blob/master/index.html)
