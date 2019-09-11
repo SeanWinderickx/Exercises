@@ -1,0 +1,15 @@
+.border{
+	border-style: inset;
+}
+.flex-grid-1{
+  display: flex;
+  width: 600px;
+  height: 75px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: purple;
+}
+.col{
+  flex: 1;
+  border: 2px dotted black;
+}
