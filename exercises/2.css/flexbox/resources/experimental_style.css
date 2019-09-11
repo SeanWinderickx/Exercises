@@ -1,3 +1,6 @@
+@font-face {
+    
+}
 .border{
 	border-style: inset;
 	border-width: 10px;
@@ -13,7 +16,11 @@
   margin: 0 auto;
   background-color: #cfcfcf;
   font-size: 30px;
-  font-family: url(mine-sweeper/mine-sweeper.ttf);
+  font-family: 'MINE-SWEEPER';
+    src: url('mine-sweeper/MINE-SWEEPER.woff2') format('mine-sweeper/woff2'),
+        url('mine-sweeper/MINE-SWEEPER.woff') format('mine-sweeper/woff');
+    font-weight: normal;
+    font-style: normal;
 }
 .col{
   flex: 1;
