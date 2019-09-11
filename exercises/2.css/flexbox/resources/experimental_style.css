@@ -13,6 +13,7 @@
   margin: 0 auto;
   background-color: #cfcfcf;
   font-size: 30px;
+  font-family: url(mine-sweeper/mine-sweeper.ttf);
 }
 .col{
   flex: 1;
