@@ -7,7 +7,7 @@ Hi! I'm Sean Winderickx, a student at BeCode learning webdesign. In this little 
 
 
 ## Chapter 2: CSS
-1 About Me
+1 About Me  
 2 Flexbox
 
 [Have a peek at my index page!](https://seanwinderickx.github.io/Learning-Markup/)
