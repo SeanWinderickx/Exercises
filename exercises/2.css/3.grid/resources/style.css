@@ -1,6 +1,12 @@
 body {
   margin: 40px;
 }
+img{
+  height: 75px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
 .wrapper {
   display: grid;
   grid-template-columns: 70px 600px 70px;
@@ -107,161 +113,132 @@ div.rightNumbers{
 
 .darkKing{
   grid-area: E8;
-  background-image: url(icons/bl-king.svg);
   background-repeat: no-repeat;
+}
+img.darkKing{
+
 }
 .darkQueen{
   grid-area: D8;
-  background-image: url(icons/bl-queen.svg);
   background-repeat: no-repeat;
 }
 .darkBishop1{
   grid-area: C8;
-  background-image: url(icons/bl-bishop.svg);
   background-repeat: no-repeat;
 }
 .darkBishop2{
   grid-area: F8;
-  background-image: url(icons/bl-bishop.svg);
   background-repeat: no-repeat;
 }
 .darkKnight1{
   grid-area: G8;
-  background-image: url(icons/bl-knight.svg);
   background-repeat: no-repeat;
 }
 .darkKnight2{
   grid-area: B8;
-  background-image: url(icons/bl-knight.svg);
   background-repeat: no-repeat;
 }
 .darkRook1{
   grid-area: H8;
-  background-image: url(icons/bl-rook.svg);
   background-repeat: no-repeat;
 }
 .darkRook2{
   grid-area: A8;
-  background-image: url(icons/bl-rook.svg);
   background-repeat: no-repeat;
 }
 .darkPawn1{
-  grid-area: A7;
-  background-image: url(icons/bl-pawn.svg);
+  grid-area: C4;
   background-repeat: no-repeat;
 }
 .darkPawn2{
   grid-area: B7;
-  background-image: url(icons/bl-pawn.svg);
   background-repeat: no-repeat;
 }
 .darkPawn3{
   grid-area: C7;
-  background-image: url(icons/bl-pawn.svg);
   background-repeat: no-repeat;
 }
 .darkPawn4{
   grid-area: D7;
-  background-image: url(icons/bl-pawn.svg);
   background-repeat: no-repeat;
 }
 .darkPawn5{
   grid-area: E7;
-  background-image: url(icons/bl-pawn.svg);
   background-repeat: no-repeat;
 }
 .darkPawn6{
   grid-area: F7;
-  background-image: url(icons/bl-pawn.svg);
   background-repeat: no-repeat;
 }
 .darkPawn7{
   grid-area: G7;
-  background-image: url(icons/bl-pawn.svg);
   background-repeat: no-repeat;
 }
 .darkPawn8{
   grid-area: H7;
-  background-image: url(icons/bl-pawn.svg);
   background-repeat: no-repeat;
 }
 .lightKing{
   grid-area: E1;
-  background-image: url(icons/wh-king.svg);
   background-repeat: no-repeat;
 }
 .lightQueen{
   grid-area: D1;
-  background-image: url(icons/wh-queen.svg);
   background-repeat: no-repeat;
 }
 .lightBishop1{
   grid-area: C1;
-  background-image: url(icons/wh-bishop.svg);
   background-repeat: no-repeat;
 }
 .lightBishop2{
   grid-area: F1;
-  background-image: url(icons/wh-bishop.svg);
   background-repeat: no-repeat;
 }
 .lightKnight1{
   grid-area: G1;
-  background-image: url(icons/wh-knight.svg);
   background-repeat: no-repeat;
 }
 .lightKnight2{
   grid-area: B1;
-  background-image: url(icons/wh-knight.svg);
   background-repeat: no-repeat;
 }
 .lightRook1{
   grid-area: H1;
-  background-image: url(icons/wh-rook.svg);
   background-repeat: no-repeat;
 }
 .lightRook2{
   grid-area: A1;
-  background-image: url(icons/wh-rook.svg);
   background-repeat: no-repeat;
 }
 .lightPawn1{
   grid-area: A2;
-  background-image: url(icons/wh-pawn.svg);
   background-repeat: no-repeat;
 }
 .lightPawn2{
   grid-area: B2;
-  background-image: url(icons/wh-pawn.svg);
   background-repeat: no-repeat;
 }
 .lightPawn3{
   grid-area: C2;
-  background-image: url(icons/wh-pawn.svg);
   background-repeat: no-repeat;
 }
 .lightPawn4{
   grid-area: D2;
-  background-image: url(icons/wh-pawn.svg);
   background-repeat: no-repeat;
 }
 .lightPawn5{
   grid-area: E2;
-  background-image: url(icons/wh-pawn.svg);
   background-repeat: no-repeat;
 }
 .lightPawn6{
   grid-area: F2;
-  background-image: url(icons/wh-pawn.svg);
   background-repeat: no-repeat;
 }
 .lightPawn7{
   grid-area: G2;
-  background-image: url(icons/wh-pawn.svg);
   background-repeat: no-repeat;
 }
 .lightPawn8{
   grid-area: H2;
-  background-image: url(icons/wh-pawn.svg);
   background-repeat: no-repeat;
 }

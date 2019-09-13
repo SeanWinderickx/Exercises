@@ -31,40 +31,32 @@ i{
 	flex: 1;
 	border-right: 2px dotted black;
 	border-bottom: 2px dotted black;
-	
 }
 .colRight{
 	flex: 1;
 	border-bottom: 2px dotted black;
-	
 }
 .colTop{
-
   flex: 1;
   border-right: 2px dotted black;
   border-bottom: 2px dotted black;
-  
 }
 .colTopLeft{
   flex: 1;
   border-right: 2px dotted black;
 	border-bottom: 2px dotted black;
-  
 }
 .colTopRight{
   flex: 1;
   border-bottom: 2px dotted black;
-  
 }
 .colBottom{
 	flex: 1;
   border-right: 2px dotted black;
-  border-left: 2px dotted black;
 }
 .colBottomLeft{
 	flex: 1;
   border-right: 2px dotted black;
-  
 }
 .colBottomRight{
 	flex: 1;
