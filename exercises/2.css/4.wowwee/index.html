@@ -1,0 +1,90 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Toys Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="resources/style.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .wrapper{
+                display: flex;
+                width: 100%;
+                height: auto;
+            }
+           
+            .header{
+                height: 50px;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #222;
+                color: pink;
+                display: flex;
+                justify-content: space-between;
+            }
+            .headerLogo{
+                width: 110px;
+                height: auto;
+                margin-left: 30px;
+                display: inline-block;
+                align-self: center;
+                text-align: center;
+            }
+
+            .headerHamburger{
+                display: inline-block;
+                align-self: center;
+                background-color: red;
+                margin: 30px;
+            }
+            .headerHamburgerBar1, .headerHamburgerBar2, .headerHamburgerBar3 {
+                width: 21px;
+                height: 3px;
+                background-color: #fff;
+                margin: 2px 0;
+                transition: 0.4s;
+            }
+
+            .change .headerHamburgerBar1{
+                -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                transform: rotate(-45deg) translate(-9px, 6px);
+            }
+
+            .change .headerHamburgerBar2{
+                opacity: 0;
+            }
+
+            .change .headerHamburgerBar3{
+                -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                transform: rotate(45deg) translate(-8px, -8px);
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="headerLogo">
+                    <div><img src="resources/wowwee.svg" alt="Logo WowWee"></div>
+                </div>
+                <div class="headerHamburger" onclick="myFunction(this)">
+                    <div class="headerHamburgerBar1"></div>
+                    <div class="headerHamburgerBar2"></div>
+                    <div class="headerHamburgerBar3"></div>
+                </div>
+                <script>
+                    function myFunction(x) {
+                        x.classList.toggle("change");
+                    }
+                </script>
+            </div>
+        </div>  
+    </body>
+</html>
