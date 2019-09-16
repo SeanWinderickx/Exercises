@@ -40,20 +40,20 @@
             .headerHamburger{
                 display: inline-block;
                 align-self: center;
-                background-color: red;
                 margin: 30px;
+                cursor: pointer;
             }
             .headerHamburgerBar1, .headerHamburgerBar2, .headerHamburgerBar3 {
                 width: 21px;
                 height: 3px;
                 background-color: #fff;
-                margin: 2px 0;
+                margin: 3.6px 0;
                 transition: 0.4s;
             }
 
             .change .headerHamburgerBar1{
-                -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-                transform: rotate(-45deg) translate(-9px, 6px);
+                -webkit-transform: rotate(-45deg) translate(-5.4px, 3.6px);
+                transform: rotate(-45deg) translate(-5.4px, 3.6px);
             }
 
             .change .headerHamburgerBar2{
@@ -61,8 +61,8 @@
             }
 
             .change .headerHamburgerBar3{
-                -webkit-transform: rotate(45deg) translate(-8px, -8px);
-                transform: rotate(45deg) translate(-8px, -8px);
+                -webkit-transform: rotate(45deg) translate(-4.8px, -4.8px);
+                transform: rotate(45deg) translate(-4.8px, -4.8px);
             }
 
 
@@ -70,6 +70,8 @@
     </head>
     <body>
         <div class="wrapper">
+
+            <!-- Start header menu -->
             <div class="header">
                 <div class="headerLogo">
                     <div><img src="resources/wowwee.svg" alt="Logo WowWee"></div>
@@ -85,6 +87,8 @@
                     }
                 </script>
             </div>
+            <!-- End header menu -->
+            
         </div>  
     </body>
 </html>
