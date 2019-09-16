@@ -42,7 +42,7 @@
                 margin: 30px;
                 cursor: pointer;
             }
-            .header .hamburger .bar1, .header .hamburger .bar2, .header .hamburger .bar3 {
+            .hamburgerBar1, .hamburgerBar2, .hamburgerBar3{
                 width: 21px;
                 height: 3px;
                 background-color: #fff;
@@ -50,21 +50,19 @@
                 transition: 0.4s;
             }
 
-            .change .header .hamburger .bar1{
+            .change .hamburgerBar1{
                 -webkit-transform: rotate(-45deg) translate(-5.4px, 3.6px);
                 transform: rotate(-45deg) translate(-5.4px, 3.6px);
             }
 
-            .change .header .hamburger .bar2{
+            .change .hamburgerBar2{
                 opacity: 0;
             }
 
-            .change .header .hamburger .bar3{
+            .change .hamburgerBar3{
                 -webkit-transform: rotate(45deg) translate(-4.8px, -4.8px);
                 transform: rotate(45deg) translate(-4.8px, -4.8px);
             }
-
-
         </style>
     </head>
     <body>
@@ -76,9 +74,9 @@
                     <div><img src="resources/wowwee.svg" alt="Logo WowWee"></div>
                 </div>
                 <div class="hamburger" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+                    <div class="hamburgerBar1"></div>
+                    <div class="hamburgerBar2"></div>
+                    <div class="hamburgerBar3"></div>
                 </div>
                 <script>
                     function myFunction(x) {
