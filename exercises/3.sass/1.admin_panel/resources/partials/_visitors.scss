@@ -1,0 +1,27 @@
+.visitors{
+    border-top: 2px solid color(green);
+    border-left: 1px solid color(gray);
+    border-right: 1px solid color(gray);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.visitors img{
+    width: 100%;
+    height: auto;
+}
+.visitors .graphs{
+    background-color: color(green);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.visitors .graph{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: color(white);
+}

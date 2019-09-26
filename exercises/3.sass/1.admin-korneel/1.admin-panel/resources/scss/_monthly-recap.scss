@@ -1,0 +1,82 @@
+.recap {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: color(white);
+}
+.graph, .goal-completion {
+    width: 100%;
+    height: 100%;
+}
+.gc {
+    text-align: center;
+    width: 100%;
+}
+.ptc {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.aptc,.aptc1 {
+    width: 50%;
+}
+.aptc1 {
+    text-align: end;
+}
+.progress-bar {
+    background-color: color(gray);
+    width: 100%;
+    height: 10px;
+}
+.progress-bar-blue,.progress-bar-green,.progress-bar-red,.progress-bar-yellow {
+    width: 80%;
+    height: 10px;
+}
+.progress-bar-blue{
+    background-color: color(blue) ;
+}
+.progress-bar-red {
+    background-color: color(red);
+}
+.progress-bar-green {
+    background-color: color(green);
+}
+.progress-bar-yellow {
+    background-color: color(orange);
+}
+.revenue-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.box-rev {
+    width: 50%;
+    text-align: center;
+}
+.t-green, .t-yellow,.t-red {
+    margin: 0%;
+    margin-top: 15px;
+}
+.t-green {
+    color:color(green);
+}
+.t-yellow {
+    color: color(orange);
+}
+.t-red {
+    color: color(red);
+}
+.money {
+    font-weight: bold;
+    margin: 0%;
+}
+.total {
+    text-transform: uppercase;
+    margin:0%;
+}
+p {
+    margin: 0%;
+    margin-top: 15px;
+}

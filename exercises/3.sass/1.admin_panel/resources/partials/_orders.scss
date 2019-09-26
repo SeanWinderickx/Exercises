@@ -1,0 +1,70 @@
+.orders{
+    border-top: 2px solid color(blue);
+    border-left: 1px solid color(gray);
+    border-right: 1px solid color(gray);
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.orders table{
+    border: 1px solid color(gray);
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    overflow-x: hidden;
+    display: block;
+}
+.orders tr{
+    overflow: hidden;
+}
+.orders th, .orders td{
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+}
+.orders th{
+    font-weight: bold;
+    text-align: left;
+}
+.orders td{
+    border-top: 0.5px solid color(gray);
+}
+.orders .pend, .orders .del, .orders .ship, .orders .proc{
+    padding: 5px;
+    border-radius: 10px;
+}
+.orders .ship{
+    background-color: color(green);
+}
+.orders .pend{
+    background-color: color(orange);
+}
+.orders .del{
+    background-color: color(red);
+}
+.orders .proc{
+    background-color: color(blue);
+}
+
+.orders .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.orders .buttons .blue, .orders .buttons .white{
+    margin: 12px;
+    padding: 5px;
+}
+.orders .buttons .blue{
+    color: color(white);
+    background-color: color(blue);
+    border: 0.2px solid color(admin_blue);
+}
+.orders .buttons .white{
+    background-color: color(white);
+    border: 0.2px solid color(gray);
+}

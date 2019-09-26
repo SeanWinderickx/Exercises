@@ -1,0 +1,30 @@
+// BREAKINGPOINTS
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) { 
+        @content;
+    }
+}
+
+@mixin large {
+    @media only screen and (min-width: 1000px) { 
+        @content;
+    }
+}
+
+// SET A REM FONT SIZE WITH A PIXEL FALLBACK
+
+@mixin font-size($size) {
+    font-size: $size;
+    font-size: calcRem($size);
+}
+
+// TRANSITION
+
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}

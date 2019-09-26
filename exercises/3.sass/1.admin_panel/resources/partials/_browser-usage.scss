@@ -1,0 +1,67 @@
+.backgroundcolor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .browser-usage, .recently{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      
+      border-top: 2px solid;
+      border-color: color(grey);
+      border-bottom:1px solid;
+      border-bottom-color: color(grey);
+    }
+    h3{
+      padding: 10px;
+  }
+  p{
+      display: flex; 
+  }
+  .circle{
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      width: 60%;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-top: 15px;
+      margin-bottom: 20px;
+      background-color: white;
+    }
+  .list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+      align-items: flex-start;
+      margin-left: auto;
+      margin-right: 10px;
+    }
+  ul .bol{
+      list-style-type: circle;
+    }
+  .country{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+      text-align: left;
+      padding: 15px;
+      border-top: 1px solid;
+      border-color: color(grey);
+      border-bottom:1px solid;
+      border-bottom-color: color(grey);
+      font-size: 12px;
+  }
+  .numbers{
+     display: flex;
+     flex-wrap: wrap;
+  } 
+  .country:hover{
+    background-color: color(grey);
+  }

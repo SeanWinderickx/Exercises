@@ -1,0 +1,68 @@
+.dashboard-header {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.dh2 {
+    width: 100%;
+}
+.dashboard {
+    width: 5%;
+    height: 5%;
+}
+.dt {
+    width: 15%;
+    margin-top: 0px;
+    margin-left: 3px;
+}
+.dt1 {
+    width: 25%;
+    margin-top: 0px;
+}
+.dashboard,.dt,:hover {
+    cursor: pointer;
+}
+
+.contentk1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 65%;
+    margin-bottom: 10px;
+    padding: 0px 12px;
+    background-color: #fff;
+    min-height: 90px;
+}
+
+.text1,.getal1 {
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.getal1 {
+    font-weight: bold;
+}
+//images//
+.tandwiel,.google,.cart,.people {
+    width: 20%;
+    min-height: 90px;
+    min-width: 90px;
+    margin-bottom: 10px;
+}
+.tandwiel {
+    background-color: color(blue);
+}
+.cart {
+    background: color(green);
+}
+.people {
+    background-color: color(orange);
+}
+.google {
+    background-color: color(red);
+}

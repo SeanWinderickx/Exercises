@@ -1,0 +1,17 @@
+// Hier importeren we alle Sass files naar 1 bestand
+
+// abstract 
+@import "variables";
+@import "mixins";
+    
+// base
+@import "typography";
+@import "reset";
+    
+// components  (buttons/sliders/carousels/...)
+@import "components";
+
+// layout
+
+
+// pages

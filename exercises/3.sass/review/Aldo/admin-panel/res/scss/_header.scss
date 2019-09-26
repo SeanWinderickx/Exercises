@@ -1,0 +1,41 @@
+.header {
+    position: relative;
+    background: $header-color;
+    color: $white;
+}
+
+.logo {
+    @include transition(width 0.3s ease-in-out);
+    
+    a {
+        display: block;
+        padding: 15px 12px;
+        background: $header-color-dark;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+        @include transition(background 0.3s ease-in-out);
+        
+        &:hover {
+            background: #397da3;
+        }
+    }
+    
+    @include tablet {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 230px;
+    }
+}
+
+.collapse .logo {
+    @include tablet {
+        width: 50px;
+
+        .hide {
+            display: none;
+        }
+        
+    }
+}

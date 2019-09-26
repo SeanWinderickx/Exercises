@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    padding: 20px 15px;
+    background: $white;
+    font-size: calcRem(12px);
+    
+    @include tablet {
+        padding: 20px 15px 20px 255px;
+        font-size: calcRem(14px);
+    }
+    
+    .version {
+        display: none;
+        margin-left: auto;
+        
+        @include tablet {
+            display: inline;
+        }
+    }
+}
+
+.menu-open .footer {
+    transform: translateX(230px);
+
+    @include tablet {
+        transform: translateX(0);   
+    }
+}
+
+.collapse .footer  {
+    @include tablet {
+        padding: 20px 15px 20px 65px;
+    }
+}

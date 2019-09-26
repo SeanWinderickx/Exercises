@@ -82,7 +82,9 @@
                 margin-top: 50px;
                 display: flex;
                 z-index: -2;
+                overflow: hidden;
             }
+            
             h1.sharkGirl{
                 box-sizing: border-box;
                 text-align: left;
@@ -95,6 +97,7 @@
                 margin-top: 100px;
                 margin-left: 20px;
                 position: absolute;
+                overflow: hidden;
             }
             a.sharkGirl{
                 background: #00f2cd;
@@ -147,7 +150,7 @@
                 font-weight: bold;
                 text-shadow: -6px 5px 2px rgba(0,0,0,.1);
                 text-transform: uppercase;
-                font-size:33px;
+                font-size:38px;
                 color: #33AAE7;
                 text-align: center;
                 z-index: 10;
@@ -155,16 +158,17 @@
             }
             .categories .image{
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 margin-top: 20px;
+                width: 100%;
             }
             .categories img{
-                height: 100px;
-                width: auto;
+                width: 90%;
+                height: auto;
             }
             .categories .types{
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 font-family: 'Lato', sans-serif;
                 text-transform: uppercase;
                 font-size: 11px;
@@ -177,7 +181,7 @@
             }
             .categories .buttons{
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 margin-top: 15px;
             }
             .categories .buttons .button{
@@ -603,7 +607,6 @@
             .footer .wrapper li{
                 border-top: 0.5px solid #a5baba;
                 border-bottom: 0.5px solid #a5baba;
-                border-collapse: collapse;
                 padding: 15px 0px;
                 color: #a5baba;
                 list-style-type: none;
@@ -612,6 +615,7 @@
                 font-weight: bold;
                 letter-spacing: 0.01em;
                 font-size: 13px;
+                margin-top: -1px;
             }
             .footer .wrapper p{
                 font-family: 'Montserrat', sans-serif;
@@ -622,6 +626,34 @@
                 display: inline-block;
             }
             /*end footer CSS*/
+
+            /*Lets start some media query magic, baby!*/
+            @media only screen and (min-width: 426px) {
+                /*Start sharkgirl media query*/
+                div.sharkGirl{
+                    background-image: url(resources/boven1.jpg);
+                    background-size: cover;
+                }
+                /*End sharkgirl media query*/
+
+                /*Start categories media query*/
+                .categories .types{
+                font-size: 20px;
+                }
+                .categories .title{
+                font-family: 'Lato', sans-serif;
+                font-weight: bold;
+                text-shadow: -6px 5px 2px rgba(0,0,0,.1);
+                text-transform: uppercase;
+                font-size:42px;
+                color: #33AAE7;
+                text-align: center;
+                z-index: 10;
+                line-height: 0.9em;
+                }
+                /*End categories media query*/
+            }
+            /*End of the groovy media query magic, baby.*/
 
         </style>
     </head>
@@ -717,7 +749,7 @@
                         <h3>The latest & greatest</h3>
                         <h1>featured products</h1>
                         <img src="resources/aliveimg.png">
-                        <img src="http://cdn.wowwee.com.s3.amazonaws.com/img/products-logo/15320315656dd9637f655ca48e94ebbbaf7d7c04d4.svg" class="logo">
+                        <img src="resources/alive.svg" class="logo">
                         <p>Playing with your cub is like having a real baby 
                             animal to take care of and nurture. Alive Cubs 
                             react with baby animal sounds and facial animations 

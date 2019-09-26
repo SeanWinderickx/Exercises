@@ -1,0 +1,275 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?qrboly");
+  src: url("../fonts/icomoon.eot?qrboly#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?qrboly") format("truetype"), url("../fonts/icomoon.woff?qrboly") format("woff"), url("../fonts/icomoon.svg?qrboly#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus:before {
+  content: "";
+}
+
+.icon-minus:before {
+  content: "";
+}
+
+.icon-search:before {
+  content: "";
+}
+
+.icon-envelope-o:before {
+  content: "";
+}
+
+.icon-th:before {
+  content: "";
+}
+
+.icon-close:before {
+  content: "";
+}
+
+.icon-remove:before {
+  content: "";
+}
+
+.icon-times:before {
+  content: "";
+}
+
+.icon-home:before {
+  content: "";
+}
+
+.icon-book:before {
+  content: "";
+}
+
+.icon-edit:before {
+  content: "";
+}
+
+.icon-pencil-square-o:before {
+  content: "";
+}
+
+.icon-mail-forward:before {
+  content: "";
+}
+
+.icon-share:before {
+  content: "";
+}
+
+.icon-calendar:before {
+  content: "";
+}
+
+.icon-folder:before {
+  content: "";
+}
+
+.icon-cogs:before {
+  content: "";
+}
+
+.icon-gears:before {
+  content: "";
+}
+
+.icon-comments:before {
+  content: "";
+}
+
+.icon-bell-o:before {
+  content: "";
+}
+
+.icon-wrench:before {
+  content: "";
+}
+
+.icon-copy:before {
+  content: "";
+}
+
+.icon-files-o:before {
+  content: "";
+}
+
+.icon-square:before {
+  content: "";
+}
+
+.icon-table:before {
+  content: "";
+}
+
+.icon-envelope:before {
+  content: "";
+}
+
+.icon-dashboard:before {
+  content: "";
+}
+
+.icon-tachometer:before {
+  content: "";
+}
+
+.icon-angle-left:before {
+  content: "";
+}
+
+.icon-angle-down:before {
+  content: "";
+}
+
+.icon-laptop:before {
+  content: "";
+}
+
+.icon-circle-o:before {
+  content: "";
+}
+
+.icon-circle:before {
+  content: "";
+}
+
+.icon-flag-o:before {
+  content: "";
+}
+
+.icon-pie-chart:before {
+  content: "";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: red;
+}
+
+.visitors-report-grid{
+  width: 50%;
+}
+
+.visitors-map img{
+  width: 100%;
+  height: auto;
+
+}
+
+.grid{
+ display: grid;
+ grid-template-columns:auto 100px;
+ grid-template-rows: 100px 100px 100px;
+ background-color: #3CB371;
+}
+
+
+.visitors-map{
+grid-column: 1/2;
+grid-row: 1/4;
+overflow: hidden;
+}
+
+.statseen {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.statstwee {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding : 10px;
+  color: white;
+}
+
+.statsdrie {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.test {
+  display: flex
+}
+
+
+.visitors summary {
+  display: grid;
+  grid-template-columns:auto 100px;
+  grid-template-rows: 100px 100px 100px;
+background-color: #FFA500;
+}
+
+.inventory-grid {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding:10px;
+  color: white;
+  flex-direction: row;
+  grid-column: 2/3;
+  grid-row: 2/5;
+  background-color: #FFA500;
+}
+
+.mentions-grid{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  flex-direction: row;
+  background-color: #3CB371;
+}
+
+.downloads-grid{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  flex-direction: row;
+  background-color: #DC143C;
+}
+ 
+.direct-messages-grid{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  flex-direction: row;
+  background-color: #48D1CC;
+}
+

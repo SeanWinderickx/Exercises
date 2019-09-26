@@ -1,0 +1,82 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+
+    @include tablet {
+        padding: 0 0 0 230px;
+        @include transition(padding 0.3s ease-in-out);
+    }
+
+    .menu-toggle {
+        margin: 0 auto 0 0;
+    }
+
+    a {
+        padding: 15px 12px;
+        display: inline-block;
+        height: 100%;
+        cursor: pointer;
+        @include transition(background 0.3s ease-in-out);
+
+        &:hover {
+            background: $header-color-dark;
+        }
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav a {
+        position: relative;
+    }
+
+    .messages::after, .notifications::after, .tasks:after {
+        position: absolute;
+        top: 5px;
+        right: 3px;
+        padding: 2px 4px;
+        color: #ffffff;
+        font-size: 0.6rem;
+        font-weight: 700;
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    .messages::after {
+        background: $green;
+        content: "4";
+    }
+
+    .notifications::after {
+        background: $yellow;
+        content: "10";
+    }
+
+    .tasks::after {
+        background: $red;
+        content: "9";
+    }
+
+    .profile img {
+        width: 15px;
+        height: auto;
+        border-radius: 100%;
+    }
+
+    .profile .hide {
+        display: none;
+        margin: 0 0 0 5px;
+        font-size: calcRem(12px);
+
+        @include tablet {
+            display: inline-block;
+        }
+    }
+}
+
+.collapse .nav {
+    @include tablet {
+        padding: 0 0 0 50px;
+    }
+}

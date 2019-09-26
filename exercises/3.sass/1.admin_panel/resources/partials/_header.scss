@@ -1,0 +1,35 @@
+.main-header,.mh-lower {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.adminLTE {
+    width: 100%;
+    color: color(white);
+    text-align: center;
+    font-weight: 700;
+    background-color: color(admin_blue);
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mh-lower{
+    background-color: color(header_blue);
+}
+.right-nav {
+    display: flex;
+    margin-left: 78px;
+}
+.menu{
+    padding:13px;
+}
+.menu:hover {
+    cursor: pointer;
+    background-color: color(admin_blue);
+}
+.menu-img {
+    width:20px;
+}
+.menu-img-dude {
+    border-radius: 50%;
+    width: 25px;
+}
