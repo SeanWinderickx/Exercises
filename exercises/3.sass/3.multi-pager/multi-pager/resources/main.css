@@ -54,8 +54,8 @@
   background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0)), url(../resources/img/wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1325px;
-  height: 800px;
+  width: auto;
+  height: 100%;
   color: #CBBC90;
   font-family: "Domine", serif;
 }
@@ -65,7 +65,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-top: 100px;
+  padding-top: 100px;
+  list-style-type: none;
 }
 .balk-items li {
   margin: 10px;

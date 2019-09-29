@@ -10,4 +10,7 @@ Hi! I'm Sean Winderickx, a student at BeCode learning webdesign. In this little 
 1 About Me  
 2 Flexbox
 
+## Chapter 3: SASS
+3 Multi-Pager
+
 [Have a peek at my index page!](https://seanwinderickx.github.io/Learning-Markup/)
