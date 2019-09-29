@@ -1,0 +1,59 @@
+.store {
+    background-image: url(/resources/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.store-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-row {
+    height: 100px;
+    width: 100%;
+}
+
+.shopping-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 730px;
+    width: 1325px;
+    margin: 0 10px;
+    background-color: transparent;
+}
+
+.ind-shopping-container-left {
+    height: 445px;
+    width: 59%;
+    margin: 5px;
+    background-color: rgb(212, 44, 44);
+    background-image: url(img/store.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    &:hover {
+        background-image: url(img/store-hover.JPG)
+    }
+}
+
+.ind-shopping-container-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 450px;
+    width: 40%;
+}
+
+.top-sellers-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+}

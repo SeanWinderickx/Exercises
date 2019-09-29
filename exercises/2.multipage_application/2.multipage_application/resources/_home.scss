@@ -1,0 +1,89 @@
+.main-content{
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0)),url(../resources/img/wallpaper.jpg); //url(../resources/img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 800px;
+    color: #CBBC90;
+    font-family: 'Domine', serif;
+}
+/*begin balk news*/
+.balk-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 100px;
+    li{   
+        margin: 10px;
+        border-bottom: 3px ridge #CBBC90;
+    }
+    .balk-1, .balk-2, .balk-3{
+        width: 200px;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.balk-1, .balk-2, .balk-3,:link{
+    color: #CBBC90;
+    text-decoration: none;
+}
+.balk-1, .balk-2, .balk-3,:visited{
+    color: white;
+    
+}
+
+/*button champion*/
+.champion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 3px solid #CBBC90;
+    background-color: #000;
+    padding: 15px;
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 930px;
+}
+.champion:hover{
+    box-shadow: 10px 5px 70px 10px #CBBC90;
+}
+
+/*begin tekst worlds 2019*/
+.world{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 650px;
+}
+.world-items{   
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 100px;
+    width: 450px;
+    height: 100px;
+    font-size: 40px;
+}
+
+/*begin shop image*/
+.shop-items{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-end;
+    li{   
+        margin-left: 10px;
+        font-size: 21px;
+    }
+    .shop-1{
+        width: 250px;
+        height: 250px;
+    }
+    .shop-2, .shop-3{
+        width: 150px;
+        height: 250px;
+    } 
+}
+

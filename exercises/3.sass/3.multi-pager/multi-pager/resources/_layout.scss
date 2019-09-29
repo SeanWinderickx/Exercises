@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1340px 260px;
+    grid-template-rows: 100px 800px;
+    background-color: #010A13;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 200px 75px 100px 100px 125px 200px 300px 50px 50px 150px;
+    grid-template-rows: 100px;
+    grid-template-areas: "play warning home profile collection teamfight blank loot store currency";
+    position: absolute;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.404));
+}
+
+.friend-list {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-template-columns: 400px;
+    grid-template-rows: 100px 40px auto 50px;
+    background-color: #010A13;
+    grid-template-areas:
+        "user"
+        "social"
+        "friends"
+        "icons"
+}
+
+.friends-flex {
+    display: flex;
+    margin: 2px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.sub-menu {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
