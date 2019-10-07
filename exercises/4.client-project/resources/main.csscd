@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: 70px 800px;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: yellow;
+}
+
+.sidebar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: red;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #253544;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+.navbar button {
+  background-color: #253544;
+  border: none;
+}
+.navbar button:hover {
+  background-color: #5dcdc5;
+}
+
+/*# sourceMappingURL=main.csscd.map */

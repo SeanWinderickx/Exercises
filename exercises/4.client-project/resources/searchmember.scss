@@ -1,0 +1,218 @@
+.findmember{
+  display: grid;
+  grid-template-columns: 34% 33% 33%; 
+  label {
+    padding-left: 10px;
+  }  
+}
+
+ul{
+  list-style: none;
+  text-align: left;
+  align-self: center;
+  justify-self: center;
+}
+.selectionbox {
+  border:1px black solid;
+  background-color: darkslategray;
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;    
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right:10px;    
+}
+.selectionboxheader{
+  display: flex;
+  background-color: #253544;
+  height: 40px;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid grey;
+  padding-left: 20px;  
+  width: 100%;
+}
+.campus {  
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.groep {  
+  background-color:darkslategray;  
+  color: white;  
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.individu {  
+  background-color:darkslategray;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-left: 10px;  
+  color: white;  
+}
+
+.inputsizer{
+  height: 30px;
+  width: 180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/* download (background)*/
+.downloadwindow {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */ 
+  top: 300px; 
+}
+
+.uploadWindow{
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  top: 300px;
+  
+}
+
+.downloadcontents {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  * {
+    margin-left: 20px;
+  }
+}
+
+.uploadContents {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  * {
+    margin-left: 20px;
+  }
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* background properties */
+
+.submenubg1 {
+  display: flex;
+  background-color: #253544;
+  height: 50px;
+  align-items: center;
+  color: white;
+  border-top: 1px solid grey;
+  padding-left: 20px;
+}
+
+.submenubg2 {
+  display: flex;
+  background-color: #253544;
+  height: 50px;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid grey;
+  padding-left: 20px;
+}
+
+/* submenu image containers */
+
+.submenu1 {
+  display: flex;
+  background-color: darkslategray;
+  justify-content: flex-start;
+  height: 100px;
+  width: 100%; 
+  align-items: center;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  img {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+   
+}
+
+.submenu2 {
+  display: flex;
+  background-color: darkslategray;
+  justify-content: flex-start;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  img {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+  
+}
+
+.dashboardproperties {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;  
+  div {
+    font-size: 13px;
+    color: white;
+    align-self: center;
+    margin-right: 30px;       
+  }
+}
+
+.buttonstyle {
+  background-color: #253544;
+  color: white;
+  border: 1px black solid;
+  height: 30px;
+  width: 140px;
+}
+
+.uplpositioning {
+  float: right;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.dwnlpositioning {
+  margin-left: 20px;
+  margin-top: 15px;
+}
